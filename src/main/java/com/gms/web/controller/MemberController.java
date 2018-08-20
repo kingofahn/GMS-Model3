@@ -25,5 +25,6 @@ public class MemberController {
 	@RequestMapping("/move")
 	public void move() {}
 	@RequestMapping("/fileUpload")
-	public void fileUpload() {}
+	public void fileUpload() {} 
+	
 }
