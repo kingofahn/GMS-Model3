@@ -22,7 +22,20 @@
     <link href="${ctx}/resources/css/landing-page.min.css" rel="stylesheet">
 
 </head>	
-
+<body>
+	<!-- Single button -->
+	<div class="btn-group">
+	  <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+	    Action <span class="caret"></span>
+	  </button>
+	  <ul class="dropdown-menu" role="menu">
+	    <li><a href="#">Action</a></li>
+	    <li><a href="#">Another action</a></li>
+	    <li><a href="#">Something else here</a></li>
+	    <li class="divider"></li>
+	    <li><a href="#">Separated link</a></li>
+	  </ul>
+	</div>
     <!-- Masthead -->
     <header class="masthead text-white text-center">
       <div class="overlay"></div>
@@ -214,7 +227,16 @@
     <!-- Bootstrap core JavaScript -->
     <script src="${ctx}/resources/vendor/jquery/jquery.min.js"></script>
     <script src="${ctx}/resources/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-
+	
+	<script>
+/* 	document.getElementById('login_btn')
+	.addEventListener('click', function(){
+		alert('로그인 버튼');
+	}) */
+	$('#login_btn').on('click',function(){
+		alert('로그인 버튼2');
+	});
+	</script>
 
 <script>
 	common.main('${ctx}')
