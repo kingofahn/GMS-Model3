@@ -88,16 +88,6 @@
 		    <artifactId>spring-jdbc</artifactId>
 		    <version>${spring-version}</version>
 		</dependency>
-		<!-- Servlet VERSION -->
-		<!-- javax.servlet-api -->
-		
-		
-		<!-- JSP VERSION -->
-		<!-- jsp-api -->
-		
-		
-		<!-- JSTL VERSION -->
-		<!-- jstl -->
 		<!-- AspectJ -->
 		<dependency>
 			<groupId>org.aspectj</groupId>
@@ -163,13 +153,16 @@
 		    <version>${servlet-version}</version>
 		    <scope>provided</scope>
 		</dependency>
-
+		<!-- JSP VERSION -->
+		<!-- jsp-api -->
 		<dependency>
 			<groupId>javax.servlet.jsp</groupId>
 			<artifactId>jsp-api</artifactId>
 			<version>${jsp-version}</version>
 			<scope>provided</scope>
 		</dependency>
+		<!-- JSTL VERSION -->
+		<!-- jstl -->
 		<dependency>
 			<groupId>javax.servlet</groupId>
 			<artifactId>jstl</artifactId>

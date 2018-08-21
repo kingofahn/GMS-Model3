@@ -15,7 +15,7 @@ public class MemberController {
 	@RequestMapping("/count")
 	public void count() {}
 	@RequestMapping("/modify")
-	public void update() {}
+	public void modify() {}
 	@RequestMapping("/remove")
 	public void remove() {}
 	@RequestMapping("/login")
