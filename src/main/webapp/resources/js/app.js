@@ -37,7 +37,6 @@ var service = (()=>{
 var common = (()=> {
 	return {
 		main : x=>{
-			alert('컨텍스트 패스 : ' + x);
 			if(document.getElementById('logout')!=null){
 				document.getElementById('logout').addEventListener('click',
 						function() {
