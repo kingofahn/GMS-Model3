@@ -26,7 +26,6 @@ public class HomeController {
 		
 		//model.addAttribute("context", "");
 		
-		return "main";
+		return "public:common/content.tiles";
 	}
-	
 }

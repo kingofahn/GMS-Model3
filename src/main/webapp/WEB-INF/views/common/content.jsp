@@ -1,44 +1,4 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8"  pageEncoding="UTF-8"%>
-<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
-<html>
-<head>
-<title>Home</title>
-	<link rel="shortcut icon" href="${ctx}/resources/img/ya.jpg" /> 
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
-    <link href="${ctx}/resources/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <link href="${ctx}/resources/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="${ctx}/resources/vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet" type="text/css">
-    <link href="${ctx}/resources/css/landing-page.min.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>	
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
-	<script src="${ctx}/resources/js/app.js"></script>
-</head>	
-<body>
-    <header class="masthead text-white text-center">
-      <div class="overlay"></div>
-      <div class="container">
-        <div class="row">
-          <div class="col-xl-9 mx-auto">
-            <h1 class="mb-5"> 행복한 미래, 밝은 미래! 우리와 함께합시다!</h1>
-          </div>
-          <div class="col-md-10 col-lg-8 col-xl-7 mx-auto">
-            <form>
-              <div class="form-row">
-                <div class="col-12 col-md-9 mb-2 mb-md-0">
-                  <input type="email" class="form-control form-control-lg" placeholder="검색할 키워드를 입력해주세요.">
-                </div>
-                <div class="col-12 col-md-3">
-                  <button type="submit" class="btn btn-block btn-lg btn-primary">검색</button>
-                </div>
-              </div>
-            </form>
-          </div>
-        </div>
-      </div>
-    </header>
-
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
     <!-- Icons Grid -->
     <section class="features-icons bg-light text-center">
       <div class="container">
@@ -58,7 +18,7 @@
                 <i class="icon-layers m-auto text-primary"></i>
               </div>
 	              <h3> 회원가입 </h3>
-              <p class="lead mb-0">보다 나은 서비스를 위하여 </br>회원가입하세요.</p>
+              <p class="lead mb-0">보다 나은 서비스를 위하여 </br> 회원가입 하세요.</p>
             </div>
           </div>
           <div class="col-lg-4" id="admin_btn">
@@ -81,22 +41,26 @@
 
           <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('${ctx}/resources/img/bg-showcase-1.JPG');"></div>
           <div class="col-lg-6 order-lg-1 my-auto showcase-text">
-            <h2>Fully Responsive Design</h2>
-            <p class="lead mb-0">When you use a theme created by Start Bootstrap, you know that the theme will look great on any device, whether it's a phone, tablet, or desktop the page will behave responsively!</p>
+            <h1>누구나</h1>
+	            <p class="lead mb-0">
+	            모든 숙박카테고리 <br> 다양한 가격대 <br> 모든 지역 / 내국인 / 외국인 
+	            </p>
           </div>
         </div>
         <div class="row no-gutters">
           <div class="col-lg-6 text-white showcase-img" style="background-image: url('${ctx}/resources/img/bg-showcase-2.JPG');"></div>
           <div class="col-lg-6 my-auto showcase-text">
-            <h2>Updated For Bootstrap 4</h2>
-            <p class="lead mb-0">Newly improved, and full of great utility classes, Bootstrap 4 is leading the way in mobile responsive web development! All of the themes on Start Bootstrap are now using Bootstrap 4!</p>
+            <h1>마음 편히</h1>
+            <p class="lead mb-0"> 
+            편하고, 안정적이고, 정확한 서비스 <br>  깨끗하고, 신뢰할 수 있는 숙소 <br> 편안한 휴식을 위한 비품 & 공간
+            </p>
           </div>
         </div>
         <div class="row no-gutters">
           <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('${ctx}/resources/img/bg-showcase-3.JPG');"></div>
           <div class="col-lg-6 order-lg-1 my-auto showcase-text">
-            <h2>Easy to Use &amp; Customize</h2>
-            <p class="lead mb-0">Landing Page is just HTML and CSS with a splash of SCSS for users who demand some deeper customization options. Out of the box, just add your content and images, and your new landing page will be ready to go!</p>
+            <h1>놀 수 있게  </h1>
+            <p class="lead mb-0"> 놀고 싶어지는 이야기 <br> 놀기 좋은 숙박 공간 <br> 놀기 편한 다양한 서비스</p>
           </div>
         </div>
       </div>
@@ -192,72 +156,3 @@
         </div>
       </div>
     </section>
-
-    <!-- Footer -->
-    <footer class="footer bg-light">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-6 h-100 text-center text-lg-left my-auto">
-            <ul class="list-inline mb-2">
-              <li class="list-inline-item">
-                <a href="#">About</a>
-              </li>
-              <li class="list-inline-item">&sdot;</li>
-              <li class="list-inline-item">
-                <a href="#">Contact</a>
-              </li>
-              <li class="list-inline-item">&sdot;</li>
-              <li class="list-inline-item">
-                <a href="#">Terms of Use</a>
-              </li>
-              <li class="list-inline-item">&sdot;</li>
-              <li class="list-inline-item">
-                <a href="#">Privacy Policy</a>
-              </li>
-            </ul>
-            <p class="text-muted small mb-4 mb-lg-0">&copy; Your Website 2018. All Rights Reserved.</p>
-          </div>
-          <div class="col-lg-6 h-100 text-center text-lg-right my-auto">
-            <ul class="list-inline mb-0">
-              <li class="list-inline-item mr-3">
-                <a href="#">
-                  <i class="fa fa-facebook fa-2x fa-fw"></i>
-                </a>
-              </li>
-              <li class="list-inline-item mr-3">
-                <a href="#">
-                  <i class="fa fa-twitter fa-2x fa-fw"></i>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a href="#">
-                  <i class="fa fa-instagram fa-2x fa-fw"></i>
-                </a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </footer>
-
-    <!-- Bootstrap core JavaScript -->
-    <script src="${ctx}/resources/vendor/jquery/jquery.min.js"></script>
-    <script src="${ctx}/resources/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-	
-	<script>
-	$('#login_btn').on('click',function(){
-		alert('로그인 버튼');
-	});
-	$('#join_btn').on('click',function(){
-		alert('회원가입 버튼');
-	});
-	$('#admin_btn').on('click',function(){
-		alert('관리자 버튼');
-	});
-	</script>
-
-<script>
-	common.main('${ctx}')
-</script>
-</body>
-</html>

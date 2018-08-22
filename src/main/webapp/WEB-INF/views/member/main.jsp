@@ -2,12 +2,11 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <!doctype html>
 <html lang="en">
-	<jsp:include page="../common/head.jsp"/>
+	<jsp:include page="../common/header.jsp"/>
 <body>
 <div id="wrapper">
 	<div id="header">
-		<jsp:include page="../common/titleBox.jsp"/>
-		<jsp:include page="../common/menuBox.jsp"/>
+		<jsp:include page="../common/header.jsp"/>
 	</div> 
 	<div id="content">
 	이동페이지 : ${pagename}
@@ -33,7 +32,7 @@
 	</c:choose>
 
 	<div id="footer">
-		 <jsp:include page="../common/footerBox.jsp"/>	
+		 <jsp:include page="../common/footer.jsp"/>	
 	</div>
 </div></div>
 <script>
